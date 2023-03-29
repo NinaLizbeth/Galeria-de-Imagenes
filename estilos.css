@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    text-align: center;
+    padding-top: 40px;
+    font-size: xx-large;
+}
+
+h1 {
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+color:#057b75;
+padding-bottom: 60px;
+font-family: 'IM Fell DW Pica SC', serif;
+
+
+}
+
+.grid-layout {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    width: 100%;
+    margin: 0 auto;
+    background-color:#050505 ;
+    border: 1px solid black;
+    justify-content: space-around;
+
+
+}
+.caja {
+    width:230px;
+    height: auto;
+    margin: 0px;
+    text-align: center;
+    line-height: 150px;
+
+}
+
+.imagen {
+width:230px;
+height: auto;
+}
